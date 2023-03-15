@@ -13,7 +13,8 @@ export default function App() {
       <main>
         <h1 className="text-center text-success p-4">Natural Pic</h1>
         <p className="text-center">
-          Haga click en el corazón de la imagen para agregarla o quitarla de Favoritos
+          Haga click en el corazón de la imagen para agregarla o quitarla de
+          Favoritos
         </p>
         <Routes>
           <Route path="/" element={<Gallery />} />

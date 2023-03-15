@@ -14,10 +14,15 @@ export default function Favs() {
       <div className="d-flex justify-content-center flex-column align-items-center">
         <h2>Favoritos</h2>
         {count === 0 ? (
-        <>
-          <h5>No tiene Fotos Favoritas, favor vuelva a Home y haga click en el corazón de la fotografía de su gusto</h5>
-          <Link to="/" ><button className="btn btn-info">Volver a Home</button></Link>
-        </>
+          <>
+            <h5>
+              No tiene Fotos Favoritas, favor vuelva a Home y haga click en el
+              corazón de la fotografía de su gusto
+            </h5>
+            <Link to="/">
+              <button className="btn btn-info">Volver a Home</button>
+            </Link>
+          </>
         ) : (
           <div className="gallery">
             {arrayFav.map((item) => {

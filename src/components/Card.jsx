@@ -19,9 +19,9 @@ export default function Card({ url, alt, id, like }) {
   };
 
   return (
-    <article className="d-flex card flex-column"  >
+    <article className="d-flex card flex-column">
       <img className="align-self-center" src={url} alt={alt} />
-      <span className="heart" onClick={handleClick} >
+      <span className="heart" onClick={handleClick}>
         <Heart filled={like} id={id} />
       </span>
     </article>
