@@ -36,6 +36,7 @@ img {
   }
 
 .active{
-  color: rgb(20, 40, 220) !important;
+  color: rgb(220, 53, 20) !important;
   font-size: larger;
+  font-weight: bolder;
 }
